@@ -1,19 +1,19 @@
 {
-  "name": "hossein-portfolio",
+  "name": "sudo-cat-coder-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "eslint"
+    "export": "next build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "framer-motion": "^11.0.0",
+    "lucide-react": "^0.400.0",
     "next": "16.2.11",
     "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "framer-motion": "^11.0.0",
-    "lucide-react": "^0.400.0"
+    "react-dom": "19.2.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -24,11 +24,5 @@
     "eslint-config-next": "16.2.11",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "export": "next build",
-    "deploy": "gh-pages -d out"
   }
 }
